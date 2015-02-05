@@ -2,4 +2,5 @@
 //= require foundation/js/foundation.min
 
 // require app
-//= require script//= require_tree .
+//= require script
+//= require_tree .
