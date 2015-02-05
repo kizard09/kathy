@@ -1,0 +1,24 @@
+div.moore{
+	background: image-url('/images/moore-place.png') no-repeat;
+	height: 600px;
+	background-size: 100%;
+	padding-top: 60px;
+	p{
+		background: rgba(255,255,255,0.7);
+		font-family: Poiret One;
+		font-size: 18px;
+		max-width: 1000px;
+		margin-right: auto;
+		margin-left: auto;
+		padding:15px;
+		height: 500px;
+		span{
+			font-size: 30px;
+		}
+		iframe{
+			margin-top: 15px;
+			margin-right: 15px;
+			float:left;
+		}
+	}
+}

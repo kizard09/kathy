@@ -1,0 +1,26 @@
+@import "mixins";
+@import "style";
+
+@media screen and (max-width:900px){
+	#nav{
+		display: none;
+	}
+	.menu{
+		display:block !important;
+	}
+  p{
+    font-size: 14px !important;
+  }
+  div.called-home{
+    height:700px;
+  }
+  div.moore{
+    padding-top: 0 !important;
+    height:500px !important;
+  }
+  div.meeting{
+    padding-top: 20px !important;
+    height: 450px !important;
+  }
+}
+ 

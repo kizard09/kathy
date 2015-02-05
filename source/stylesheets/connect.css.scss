@@ -1,0 +1,48 @@
+#email_box{
+	padding-top:40px;
+  p{
+		width:80%;
+    	max-width:900px;
+		font-family:Poiret One;
+		font-size:18px;
+		margin-left:auto;
+		margin-right: auto;
+		color:gray;
+	}
+  	div{
+    width:80%;
+    max-width:900px;
+    margin-left:auto;
+    margin-right:auto;
+    button{
+      float:right;
+      color:gray;
+      text-transform: uppercase;
+      font-family: Lato;
+      background:radial-gradient(white,lightblue);
+      border-radius:10px;
+      box-shadow:5px 5px 5px gray;
+      outline: none;
+      &:active, &:focus{
+         box-shadow:none;  
+      }
+    }
+  }
+}
+#contactUsForm {
+  small.error{
+    background:none;
+    color:red;
+    font-family: Lato;
+  }
+  small.success{
+    display:none;
+  }
+  div:first-of-type{
+    margin-top:20px;
+  }
+}
+small.success{
+  color:white;
+  font-size:10px;
+}

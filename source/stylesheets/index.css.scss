@@ -1,0 +1,66 @@
+.orbit-container{
+	.orbit-timer{
+		display:none;
+	}
+	.orbit-slide-number{
+		display:none;
+	}
+	.orbit-slides-container {
+    img{
+      width:100%;
+      max-width:none;
+    }
+    .orbit-caption{
+  		background-color: transparent;
+  		font-size:3.4rem;
+  		padding-left:18%;
+  		width:90%;
+  		font-family:Poiret One;
+  		bottom: 40%;
+  	}
+  }
+}
+div.row.content{
+	padding-bottom:40px;
+	div {
+		&.kathy{
+			div{
+				width: 300px;
+				height:400px;
+				background: image-url('/images/kathy-izard.jpeg') no-repeat;
+				background-size: 300px;
+			}
+		}
+		&.book{
+			div{
+				width: 300px;
+				height:400px;
+				background: image-url('/images/called-home.png') no-repeat;
+				background-size: 300px;
+			}
+		}
+		&.passion{
+			div{
+				width: 300px;
+				height:400px;
+				background: image-url('/images/kathy-izard.jpeg') no-repeat;
+				background-size: 300px;
+			}
+		}
+		h6{
+			font-family:Poiret One;
+			font-size: 25px;		
+		}
+		p{
+			display:none;
+			height:100%;
+			padding: 10px;
+			padding-top: 80%;
+			font-family: Lato;
+			font-size: 15px;
+			color: black;
+			opacity:0.8;
+			background-color: rgba(255,255,255,0.7)
+		}
+	}
+}

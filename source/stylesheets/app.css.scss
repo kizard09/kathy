@@ -1,0 +1,45 @@
+@import "settings";
+@import "foundation.scss";
+@import "font-awesome";
+@import "style";
+@import "nav";
+@import "called-home";
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import url(http://fonts.googleapis.com/css?family=Sacramento);
+@import url(http://fonts.googleapis.com/css?family=Meddon);
+@import 'media_queries';
+@import 'index';
+@import 'connect';
+@import 'kathyizard';
+@import 'moore-place';
+@import 'ron-denver';
+@import 'quietgood';
+
+header {
+  @include grid-row;
+
+  .logo  { @include grid-column($columns:3, $center:true); }
+  padding-bottom: em-calc(10px);
+
+}
+
+
+.main-content {
+  @include grid-row;
+
+  aside  {
+    @include grid-column($columns:6);
+    // @media #{$medium-up} {
+    //   @include grid-column($columns:3);
+    // }
+  }
+
+  article  {
+    @include grid-column($columns:6);
+    // @media #{$medium-up} {
+    //   @include grid-column($columns:8, $offset: 1);
+    // }
+  }
+
+}
