@@ -1,0 +1,24 @@
+<header class="row">
+  <div class="medium-12 text-center columns">
+  <div>
+    <div class="logo"><em><%= link_to "Kathy Izard", "/" %></em></div>
+    <nav role="navigation" id="nav">
+      <ul>
+        <li <%= 'class="active"' if request.path == "/#called-home" %>><i class="fa fa-leaf"></i><%= link_to "The Story", "/#called-home" %></li>
+        <li>|</li>
+        <li <%= 'class="active"' if request.path == "/#kathyizard" %>><i class="fa fa-leaf"></i><%= link_to "The Author", "/#kathyizard"%></li>
+        <li>|</li>
+        <li<%= 'class="active"' if request.path == "/#moore-place" %>><i class="fa fa-leaf"></i><%= link_to "Moore Place", "/#moore-place" %></li>
+        <li>|</li>
+        <li <%= 'class="active"' if request.path == "/#the-meeting" %>><i class="fa fa-leaf"></i><%= link_to "The Meeting", "/#the-meeting" %></li>
+        <li>|</li>
+        <li <%= 'class="active"' if request.path == "/#quietgood" %>><i class="fa fa-leaf"></i><%= link_to "What's Calling You?", "/#quietgood" %></li>
+        <li>|</li>
+        <li <%= 'class="active"' if request.path == "/#connect" %>><i class="fa fa-leaf"></i><%= link_to "Connect", "/#connect" %></li>
+      </ul>
+    </nav>
+  </div>
+  </div>
+</header>
+
+<!-- for one page sites-->
