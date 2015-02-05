@@ -11,7 +11,7 @@ set :images_dir, "images"
 # compass_config do |config|
 #   config.output_style = :compact
 # end
-set :url_root, URL_ROOT
+
 ###
 # Page options, layouts, aliases and proxies
 ###
@@ -134,4 +134,4 @@ end
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
-end
+
